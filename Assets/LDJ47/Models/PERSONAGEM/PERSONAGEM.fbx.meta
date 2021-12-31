@@ -1,0 +1,618 @@
+fileFormatVersion: 2
+guid: 992a759ca286f764081bb827dcc6f4e2
+timeCreated: 1540324765
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: "ANTI_BRA\xC7O_L"
+    100002: "ANTI_BRA\xC7O_R"
+    100004: Armature
+    100006: Bone
+    100008: "BRA\xC7O_L"
+    100010: "BRA\xC7O_R"
+    100012: "CABE\xC7A"
+    100014: "CABE\xC7A_end"
+    100016: CINTURA_L
+    100018: CINTURA_R
+    100020: COXA_L
+    100022: COXA_R
+    100024: ESPINHA
+    100026: FOGUETE
+    100028: Hemi
+    100030: MAO_DEDAO_1_L
+    100032: MAO_DEDAO_1_R
+    100034: MAO_DEDAO_2_L
+    100036: MAO_DEDAO_2_L_end
+    100038: MAO_DEDAO_2_R
+    100040: MAO_DEDAO_2_R_end
+    100042: MAO_DOBRA_1_L
+    100044: MAO_DOBRA_1_R
+    100046: MAO_DOBRA_2_L
+    100048: MAO_DOBRA_2_L_end
+    100050: MAO_DOBRA_2_R
+    100052: MAO_DOBRA_2_R_end
+    100054: MAO_L
+    100056: MAO_R
+    100058: OMBRO_L
+    100060: OMBRO_R
+    100062: PE_1_L
+    100064: PE_1_R
+    100066: PE_2_L
+    100068: PE_2_L_end
+    100070: PE_2_R
+    100072: PE_2_R_end
+    100074: PERNA_L
+    100076: PERNA_R
+    100078: //RootNode
+    100080: PERSONAGEM_CHIBI
+    100082: "PESCO\xC7O"
+    400000: "ANTI_BRA\xC7O_L"
+    400002: "ANTI_BRA\xC7O_R"
+    400004: Armature
+    400006: Bone
+    400008: "BRA\xC7O_L"
+    400010: "BRA\xC7O_R"
+    400012: "CABE\xC7A"
+    400014: "CABE\xC7A_end"
+    400016: CINTURA_L
+    400018: CINTURA_R
+    400020: COXA_L
+    400022: COXA_R
+    400024: ESPINHA
+    400026: FOGUETE
+    400028: Hemi
+    400030: MAO_DEDAO_1_L
+    400032: MAO_DEDAO_1_R
+    400034: MAO_DEDAO_2_L
+    400036: MAO_DEDAO_2_L_end
+    400038: MAO_DEDAO_2_R
+    400040: MAO_DEDAO_2_R_end
+    400042: MAO_DOBRA_1_L
+    400044: MAO_DOBRA_1_R
+    400046: MAO_DOBRA_2_L
+    400048: MAO_DOBRA_2_L_end
+    400050: MAO_DOBRA_2_R
+    400052: MAO_DOBRA_2_R_end
+    400054: MAO_L
+    400056: MAO_R
+    400058: OMBRO_L
+    400060: OMBRO_R
+    400062: PE_1_L
+    400064: PE_1_R
+    400066: PE_2_L
+    400068: PE_2_L_end
+    400070: PE_2_R
+    400072: PE_2_R_end
+    400074: PERNA_L
+    400076: PERNA_R
+    400078: //RootNode
+    400080: PERSONAGEM_CHIBI
+    400082: "PESCO\xC7O"
+    4300000: FOGUETE
+    4300002: PERSONAGEM_CHIBI
+    7400000: Armature|DESCER
+    7400002: Armature|IDLE
+    7400004: Armature|RUN
+    7400006: Armature|SUBIR
+    9500000: //RootNode
+    13700000: FOGUETE
+    13700002: PERSONAGEM_CHIBI
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|DESCER
+      takeName: Armature|DESCER
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/CINTURA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L/PE_2_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L/PE_2_L/PE_2_L_end
+        weight: 1
+      - path: Armature/Bone/CINTURA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R/PE_2_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R/PE_2_R/PE_2_R_end
+        weight: 1
+      - path: Armature/Bone/ESPINHA
+        weight: 1
+      - path: Armature/Bone/ESPINHA/OMBRO_L
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L/MAO_DEDAO_2_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L/MAO_DEDAO_2_L/MAO_DEDAO_2_L_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L/MAO_DOBRA_2_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L/MAO_DOBRA_2_L/MAO_DOBRA_2_L_end"
+        weight: 1
+      - path: Armature/Bone/ESPINHA/OMBRO_R
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R/MAO_DEDAO_2_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R/MAO_DEDAO_2_R/MAO_DEDAO_2_R_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R/MAO_DOBRA_2_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R/MAO_DOBRA_2_R/MAO_DOBRA_2_R_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O/CABE\xC7A"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O/CABE\xC7A/CABE\xC7A_end"
+        weight: 1
+      - path: FOGUETE
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: PERSONAGEM_CHIBI
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|IDLE
+      takeName: Armature|IDLE
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/CINTURA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L/PE_2_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L/PE_2_L/PE_2_L_end
+        weight: 1
+      - path: Armature/Bone/CINTURA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R/PE_2_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R/PE_2_R/PE_2_R_end
+        weight: 1
+      - path: Armature/Bone/ESPINHA
+        weight: 1
+      - path: Armature/Bone/ESPINHA/OMBRO_L
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L/MAO_DEDAO_2_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L/MAO_DEDAO_2_L/MAO_DEDAO_2_L_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L/MAO_DOBRA_2_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L/MAO_DOBRA_2_L/MAO_DOBRA_2_L_end"
+        weight: 1
+      - path: Armature/Bone/ESPINHA/OMBRO_R
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R/MAO_DEDAO_2_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R/MAO_DEDAO_2_R/MAO_DEDAO_2_R_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R/MAO_DOBRA_2_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R/MAO_DOBRA_2_R/MAO_DOBRA_2_R_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O/CABE\xC7A"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O/CABE\xC7A/CABE\xC7A_end"
+        weight: 1
+      - path: FOGUETE
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: PERSONAGEM_CHIBI
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RUN
+      takeName: Armature|RUN
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/CINTURA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L/PE_2_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L/PE_2_L/PE_2_L_end
+        weight: 1
+      - path: Armature/Bone/CINTURA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R/PE_2_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R/PE_2_R/PE_2_R_end
+        weight: 1
+      - path: Armature/Bone/ESPINHA
+        weight: 1
+      - path: Armature/Bone/ESPINHA/OMBRO_L
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L/MAO_DEDAO_2_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L/MAO_DEDAO_2_L/MAO_DEDAO_2_L_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L/MAO_DOBRA_2_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L/MAO_DOBRA_2_L/MAO_DOBRA_2_L_end"
+        weight: 1
+      - path: Armature/Bone/ESPINHA/OMBRO_R
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R/MAO_DEDAO_2_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R/MAO_DEDAO_2_R/MAO_DEDAO_2_R_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R/MAO_DOBRA_2_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R/MAO_DOBRA_2_R/MAO_DOBRA_2_R_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O/CABE\xC7A"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O/CABE\xC7A/CABE\xC7A_end"
+        weight: 1
+      - path: FOGUETE
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: PERSONAGEM_CHIBI
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|SUBIR
+      takeName: Armature|SUBIR
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/CINTURA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L/PE_2_L
+        weight: 1
+      - path: Armature/Bone/CINTURA_L/COXA_L/PERNA_L/PE_1_L/PE_2_L/PE_2_L_end
+        weight: 1
+      - path: Armature/Bone/CINTURA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R/PE_2_R
+        weight: 1
+      - path: Armature/Bone/CINTURA_R/COXA_R/PERNA_R/PE_1_R/PE_2_R/PE_2_R_end
+        weight: 1
+      - path: Armature/Bone/ESPINHA
+        weight: 1
+      - path: Armature/Bone/ESPINHA/OMBRO_L
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L/MAO_DEDAO_2_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DEDAO_1_L/MAO_DEDAO_2_L/MAO_DEDAO_2_L_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L/MAO_DOBRA_2_L"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_L/BRA\xC7O_L/ANTI_BRA\xC7O_L/MAO_L/MAO_DOBRA_1_L/MAO_DOBRA_2_L/MAO_DOBRA_2_L_end"
+        weight: 1
+      - path: Armature/Bone/ESPINHA/OMBRO_R
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R/MAO_DEDAO_2_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DEDAO_1_R/MAO_DEDAO_2_R/MAO_DEDAO_2_R_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R/MAO_DOBRA_2_R"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/OMBRO_R/BRA\xC7O_R/ANTI_BRA\xC7O_R/MAO_R/MAO_DOBRA_1_R/MAO_DOBRA_2_R/MAO_DOBRA_2_R_end"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O/CABE\xC7A"
+        weight: 1
+      - path: "Armature/Bone/ESPINHA/PESCO\xC7O/CABE\xC7A/CABE\xC7A_end"
+        weight: 1
+      - path: FOGUETE
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: PERSONAGEM_CHIBI
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
