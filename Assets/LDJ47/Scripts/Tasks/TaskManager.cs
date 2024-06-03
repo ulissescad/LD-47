@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.AI.Navigation.Samples;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,8 +8,8 @@ public class TaskManager : MonoBehaviour
 {
 
     public GameManager GameManagerObj;
-
     public GameObject CameraObj;
+    public ClickToMove ClicktoMove;
     
     [SerializeField]
     private Image _taskScreen;
@@ -21,6 +22,8 @@ public class TaskManager : MonoBehaviour
 
     public void PlayTask(BaseTask task)
     {
+        ClicktoMove.CanMove= false;
+
         var taskObj = Instantiate(task, _taskLocal);
         
         CameraObj.SetActive(false);
@@ -31,6 +34,7 @@ public class TaskManager : MonoBehaviour
 
     private void EndTask()
     {
+        ClicktoMove.CanMove = true;
         CameraObj.SetActive(true);
     }
 }

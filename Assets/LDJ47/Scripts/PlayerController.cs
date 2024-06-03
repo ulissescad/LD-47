@@ -43,16 +43,15 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        if (CrossPlatformInputManager.GetAxis("Horizontal") != 0 || CrossPlatformInputManager.GetAxis("Vertical") != 0)
+        if (CrossPlatformInputManager.GetAxis("Horizontal") != 0 || CrossPlatformInputManager.GetAxis("Vertical") != 0|| _agent.velocity.magnitude > 0.15f)
         {
 
-            float x = CrossPlatformInputManager.GetAxis("Horizontal");
-
-            float z = CrossPlatformInputManager.GetAxis("Vertical");
+            //float x = CrossPlatformInputManager.GetAxis("Horizontal");
+            //float z = CrossPlatformInputManager.GetAxis("Vertical");
             
             _playerAnimator.SetInteger("state",1);
             
-            Rotate(x, z);
+            //Rotate(x, z);
             Move();
 
         }

@@ -96,9 +96,9 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: b8d63b2a18672b044b76a98b49047945,
+  m_LightingDataAsset: {fileID: 112000000, guid: 5c4ed9a1519d7394cb58785713e99539,
     type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 9103d4db30dc96947961d59afc4abeb3,
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 3598384f3a2cdaa4fbe258b79e3abae1,
     type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -466,7 +466,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &180479189
 MeshRenderer:
@@ -715,7 +715,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
+  m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &200863865
 MeshRenderer:
@@ -2059,7 +2059,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
+  m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &502240092
 MeshRenderer:
@@ -3121,14 +3121,14 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.8
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3281,7 +3281,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
+  m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &716523621
 MeshRenderer:
@@ -3985,7 +3985,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &910254830
 MeshRenderer:
@@ -5312,6 +5312,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 371645667886700767, guid: cf8e8a5c4c817424fa3efe51d20c2472,
+        type: 3}
+      propertyPath: _clickToMove
+      value: 
+      objectReference: {fileID: 1383270070}
+    - target: {fileID: 371645667886700767, guid: cf8e8a5c4c817424fa3efe51d20c2472,
+        type: 3}
+      propertyPath: _closeHintButton
+      value: 
+      objectReference: {fileID: 1301999924}
     - target: {fileID: 2308811416284636434, guid: cf8e8a5c4c817424fa3efe51d20c2472,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -5447,6 +5457,11 @@ PrefabInstance:
       propertyPath: _taskLocal
       value: 
       objectReference: {fileID: 622660761}
+    - target: {fileID: 5994740522938873682, guid: cf8e8a5c4c817424fa3efe51d20c2472,
+        type: 3}
+      propertyPath: ClicktoMove
+      value: 
+      objectReference: {fileID: 1383270070}
     - target: {fileID: 7305724263451722345, guid: cf8e8a5c4c817424fa3efe51d20c2472,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -5497,6 +5512,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48917c47d2f3a354e95b4d5cf1210abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1301999924 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2872862439702616415, guid: cf8e8a5c4c817424fa3efe51d20c2472,
+    type: 3}
+  m_PrefabInstance: {fileID: 1301999922}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1303728106
@@ -5929,7 +5956,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -6076,6 +6103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9472e73a59274b9b8da79d72004bd8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanMove: 1
   NavIndicator: {fileID: 1188395463}
 --- !u!1 &1383289871
 GameObject:
@@ -6306,7 +6334,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
+  m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1447533412
 MeshRenderer:
@@ -6426,7 +6454,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1457708711
 MeshRenderer:
@@ -6598,7 +6626,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1564227800
 MeshRenderer:

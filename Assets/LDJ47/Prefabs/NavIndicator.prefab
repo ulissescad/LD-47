@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 7836976098894126705}
   - component: {fileID: 3286013010548634233}
   - component: {fileID: 3885437174359585884}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: NavIndicator
-  m_TagString: Untagged
+  m_TagString: Activities
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,7 +85,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8555137996395806769}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,6 +190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NavIndicator
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bfec7b9a227cdd4b92e6a8d53dafe45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

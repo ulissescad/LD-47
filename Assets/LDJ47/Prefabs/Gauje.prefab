@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3761610996143336066}
   - component: {fileID: 7616271175739048924}
   - component: {fileID: 4434811447406044938}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 2776401285470948882}
   - component: {fileID: 3317986036171763045}
   - component: {fileID: 8625562079514179704}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: Pointer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -234,7 +234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1277221514040860456}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: Gauge (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7263458431523174759}
   - component: {fileID: 1571542381562910653}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: Gauje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 6559316322024782353}
   - component: {fileID: 6724960811321895010}
   - component: {fileID: 6800017813411923972}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: Pointer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2245014691445043729}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +442,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6457007676010786625}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: Gauge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 2154909918691274675}
   - component: {fileID: 4563613316488099368}
   - component: {fileID: 9150976069809440411}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 3675057300426668091}
   - component: {fileID: 3365712016212278295}
   - component: {fileID: 2792683314023210158}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4143765112856770207}
   - component: {fileID: 4127125566759026752}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -721,7 +721,7 @@ GameObject:
   - component: {fileID: 1067753093297037499}
   - component: {fileID: 4267158461925255347}
   - component: {fileID: 5067038092053828229}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}

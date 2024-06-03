@@ -1,6 +1,8 @@
 ﻿using DG.Tweening;
 using JetBrains.Annotations;
+using System;
 using TMPro;
+using Unity.AI.Navigation.Samples;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -25,16 +27,29 @@ public class UIController : MonoBehaviour
 
     [SerializeField]
     private Button _hintButton;
+
+    [SerializeField]
+    private Button _closeHintButton;
+
+    [SerializeField]
+    private Animator _hintButtonpAnim; 
     
     [SerializeField]
-    private Animator _hintButtonpAnim;
+    private ClickToMove _clickToMove;
 
     // Start is called before the first frame update
     void Start()
     {
         _hintButton.onClick.AddListener(ShowMessageHint);
+        _closeHintButton.onClick.AddListener(HideMessageHint);
         _endGameScreen.gameObject.SetActive(true);
         _endGameScreen.DOFade(0, 1f);
+    }
+
+    private void HideMessageHint()
+    {
+        _clickToMove.CanMove=true;
+        Debug.Log("hintpopup fechado");
     }
 
     public void ShowMessage(string message)
@@ -45,8 +60,10 @@ public class UIController : MonoBehaviour
     
     private void ShowMessageHint()
     {
+        Debug.Log("hintpopup aberto");
         _hintButtonpAnim.SetBool("action",false);
         _popupAnimHintMessage.SetTrigger("action");
+        _clickToMove.CanMove = false;
         UnlockTask.Invoke();
     }
 
@@ -57,6 +74,7 @@ public class UIController : MonoBehaviour
             _popupTextHintMessage.text = message;
         }
         _hintButtonpAnim.SetBool("action",status);
+
     }
     
     public async void EndGame()

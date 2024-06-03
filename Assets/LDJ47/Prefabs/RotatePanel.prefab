@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6646298185341120432}
   - component: {fileID: 6311465036085066827}
   - component: {fileID: 9151731394788303432}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Trigger (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 693942294427185950}
   - component: {fileID: 2432029974813362204}
   - component: {fileID: 7601858918227648282}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Trigger (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 4447826738459872604}
   m_Layer: 5
   m_Name: RotatePanel
-  m_TagString: Untagged
+  m_TagString: Activities
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -437,7 +437,7 @@ GameObject:
   - component: {fileID: 3498251815486133746}
   - component: {fileID: 1006742306253781056}
   - component: {fileID: 5372419795507939776}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 9103434323485532517}
   - component: {fileID: 2012971108827471448}
   - component: {fileID: 2110950855833001066}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -643,7 +643,7 @@ GameObject:
   - component: {fileID: 6314300755982907245}
   - component: {fileID: 1162753014496651021}
   - component: {fileID: 8903772029496554438}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Spipnner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -729,7 +729,7 @@ GameObject:
   - component: {fileID: 7498377201321493895}
   - component: {fileID: 7498377201321493893}
   - component: {fileID: 7498377201321493892}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Crank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -869,7 +869,7 @@ GameObject:
   - component: {fileID: 8068926893666736385}
   - component: {fileID: 1244628692515564416}
   - component: {fileID: 3266789305844543786}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Spipnner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -953,7 +953,7 @@ GameObject:
   - component: {fileID: 4283760912144795164}
   - component: {fileID: 1180111201188910426}
   - component: {fileID: 7498377201698231691}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 7859641241632819151}
   - component: {fileID: 4449645805999041186}
   - component: {fileID: 7425334164781199859}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1150,7 +1150,7 @@ GameObject:
   - component: {fileID: 8547046566018904269}
   - component: {fileID: 7823350813403407281}
   - component: {fileID: 8431550869743744429}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Spipnner (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1233,7 +1233,7 @@ GameObject:
   - component: {fileID: 7361855588684685057}
   - component: {fileID: 1606172230053772934}
   - component: {fileID: 1652465951445177996}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Trigger (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1314,7 +1314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 643912829144894976}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: spinner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1357,7 +1357,7 @@ GameObject:
   - component: {fileID: 8384013919847844887}
   - component: {fileID: 7974650587165545561}
   - component: {fileID: 7186074381542924775}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1440,7 +1440,7 @@ GameObject:
   - component: {fileID: 8377634948858046719}
   - component: {fileID: 7976702671325114545}
   - component: {fileID: 7179659436041192719}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1526,7 +1526,7 @@ GameObject:
   - component: {fileID: 4713064129290184317}
   - component: {fileID: 4713064129290184306}
   - component: {fileID: 4713064129290184304}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1659,7 +1659,7 @@ GameObject:
   - component: {fileID: 4443515761714960674}
   - component: {fileID: 5882580259491180871}
   - component: {fileID: 4621067744570294798}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GameObject (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1780,7 +1780,7 @@ GameObject:
   - component: {fileID: 3071523636550103840}
   - component: {fileID: 8768343985164932642}
   - component: {fileID: 8343174132981384193}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Spipnner (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1863,7 +1863,7 @@ GameObject:
   - component: {fileID: 568023582200663316}
   - component: {fileID: 4638721711114329460}
   - component: {fileID: 3157705147387840959}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Spipnner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1948,7 +1948,7 @@ GameObject:
   - component: {fileID: 7901272719541818964}
   - component: {fileID: 7498377202771539157}
   - component: {fileID: 7498377202771539146}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Button.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2069,7 +2069,7 @@ GameObject:
   - component: {fileID: 7866352349446394516}
   - component: {fileID: 5805241918509414241}
   - component: {fileID: 5281412234903578813}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GameObject (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2190,7 +2190,7 @@ GameObject:
   - component: {fileID: 1223159446608710187}
   - component: {fileID: 7131304700314282743}
   - component: {fileID: 3144379874748027995}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Spipnner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2275,7 +2275,7 @@ GameObject:
   - component: {fileID: 6668868837675205242}
   - component: {fileID: 5499180867829301687}
   - component: {fileID: 4469057190654401598}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2635,7 +2635,7 @@ GameObject:
   - component: {fileID: 7498377201023433713}
   - component: {fileID: 7498377201023433712}
   - component: {fileID: 7498377201023433715}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3606,7 +3606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7498377201298248033}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3960,7 +3960,7 @@ GameObject:
   - component: {fileID: 7498377201451633623}
   - component: {fileID: 7498377201451633622}
   - component: {fileID: 7498377201451633617}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4094,7 +4094,7 @@ GameObject:
   - component: {fileID: 7498377201523093204}
   - component: {fileID: 7498377201523093207}
   - component: {fileID: 7498377201523093206}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4496,7 +4496,7 @@ GameObject:
   - component: {fileID: 7498377202150000125}
   - component: {fileID: 7498377202150000124}
   - component: {fileID: 7498377202150000127}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4630,7 +4630,7 @@ GameObject:
   - component: {fileID: 7498377202158188377}
   - component: {fileID: 7498377202158188376}
   - component: {fileID: 7498377202158188379}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5032,7 +5032,7 @@ GameObject:
   - component: {fileID: 7498377202364454349}
   - component: {fileID: 7498377202364454348}
   - component: {fileID: 7498377202364454351}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5166,7 +5166,7 @@ GameObject:
   - component: {fileID: 7498377202393644689}
   - component: {fileID: 7498377202393644688}
   - component: {fileID: 7498377202393644691}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5670,7 +5670,7 @@ GameObject:
   - component: {fileID: 7498377202588412669}
   - component: {fileID: 7498377202588412668}
   - component: {fileID: 7498377202588412671}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5804,7 +5804,7 @@ GameObject:
   - component: {fileID: 7498377202638621068}
   - component: {fileID: 7498377202638621071}
   - component: {fileID: 7498377202638621070}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6378,7 +6378,7 @@ GameObject:
   - component: {fileID: 7498377202804493237}
   - component: {fileID: 7498377202804493236}
   - component: {fileID: 7498377202804493239}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6850,7 +6850,7 @@ GameObject:
   - component: {fileID: 7498377202838970395}
   - component: {fileID: 7498377202838970394}
   - component: {fileID: 7498377202838970853}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Keypad.002 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6979,7 +6979,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6391756376226893969}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PasswordPanel (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7016,7 +7016,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6389836198947681401}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: spinner (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7050,7 +7050,7 @@ GameObject:
   - component: {fileID: 2601076553420699246}
   - component: {fileID: 4533232635640950304}
   - component: {fileID: 3745009132867705758}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7233,7 +7233,7 @@ GameObject:
   - component: {fileID: 1692524970855435111}
   - component: {fileID: 2145802357436235101}
   - component: {fileID: 8565649644904803191}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Trigger (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7365,7 +7365,7 @@ GameObject:
   - component: {fileID: 6294915005812481185}
   - component: {fileID: 5644915108466674116}
   - component: {fileID: 2644156930229416212}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Spipnner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7448,7 +7448,7 @@ GameObject:
   - component: {fileID: 1627913728215078603}
   - component: {fileID: 1272670818838841909}
   - component: {fileID: 4778140027379859462}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Trigger (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7531,7 +7531,7 @@ GameObject:
   - component: {fileID: 1407661788558389196}
   - component: {fileID: 7209972254576277081}
   - component: {fileID: 1803063155591208704}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7616,7 +7616,7 @@ GameObject:
   - component: {fileID: 3985394787423357834}
   - component: {fileID: 8124886184500152827}
   - component: {fileID: 8152555615832175354}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7748,7 +7748,7 @@ GameObject:
   - component: {fileID: 3568596756796655644}
   - component: {fileID: 1746795024337800157}
   - component: {fileID: 6416366833513761206}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7831,7 +7831,7 @@ GameObject:
   - component: {fileID: 8477759363962142769}
   - component: {fileID: 405675958927560172}
   - component: {fileID: 7802506322740327065}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Spipnner (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
